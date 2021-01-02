@@ -40,7 +40,7 @@ def Matchmaking(Student:List[student],Department:List[department]):
     :param Department: List of departments
     :return: Stable match
 
-   # fram class
+   # from class
     >>> Rafi = student();
     >>> Shlomo = student();
     >>> Tomer = student();

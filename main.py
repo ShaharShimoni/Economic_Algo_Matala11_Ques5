@@ -164,29 +164,6 @@ def Matchmaking(Student:List[student],Department:List[department]):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
 
-    # Rafi = student();
-    # Tomer = student();
-    #
-    # Rafi.My_name="Rafi";
-    # Tomer.My_name="Tomer";
-    #
-    # Rafi.department=["Aviva","Batia"];
-    # Tomer.department=["Aviva","Batia"];
-    #
-    # Aviva = department();
-    # Batia = department();
-    #
-    # Aviva.My_name = "Aviva";
-    # Batia.My_name = "Batia";
-    #
-    # Aviva.students=["Rafi","Tomer"];
-    # Batia.students=["Rafi","Tomer"];
-    #
-    # Student = [ Tomer,Rafi];
-    # Dep = [Aviva, Batia];
-    #
-    # Matchmaking(Student, Dep);
-
     import doctest
     (failures, tests) = doctest.testmod(report=True)
     print("{} failures, {} tests".format(failures, tests))
